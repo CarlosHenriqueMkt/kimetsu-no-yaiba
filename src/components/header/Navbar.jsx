@@ -27,7 +27,7 @@ export default function Navbar() {
 						<a href="#contribua">Contribua</a>
 					</li>
 				</ul>
-				<button className="btn" href="contribua">
+				<button className="btn" href="#contribua">
 					Saiba mais
 				</button>
 				<div className="hamburguer" onClick={handleClick}>

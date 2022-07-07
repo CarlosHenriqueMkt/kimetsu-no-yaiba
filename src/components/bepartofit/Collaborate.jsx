@@ -21,7 +21,7 @@ export default function Collaborate() {
 		<>
 			<div className="flexBox">
 				<div className="mainTitle">
-					<h3>Colabore com o crescimento deste site!</h3>
+					<h3>Colabore com o crescimento deste projeto!</h3>
 				</div>
 				<p className="subTitle" id="contribua">
 					Você é <strong>fã de Kimetsu no Yaiba</strong> e gosta de{" "}

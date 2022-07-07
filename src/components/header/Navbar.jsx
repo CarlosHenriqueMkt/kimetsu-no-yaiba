@@ -27,7 +27,9 @@ export default function Navbar() {
 						<a href="#contribua">Contribua</a>
 					</li>
 				</ul>
-				<button className="btn">Sign in</button>
+				<button className="btn" href="contribua">
+					Saiba mais
+				</button>
 				<div className="hamburguer" onClick={handleClick}>
 					{click ? (
 						<FaRegTimesCircle className="icon" />

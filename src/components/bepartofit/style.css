@@ -1,0 +1,50 @@
+.flexBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	max-width: 1200px;
+	margin: auto;
+	padding: 30px;
+}
+
+.mainTitle h3 {
+	font-size: 48px;
+	text-align: center;
+}
+
+.subTitle {
+	font-size: 24px;
+	margin: 10px;
+}
+
+.flexButtons {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-evenly;
+	max-width: 1200px;
+	margin: auto;
+}
+
+@media (max-width: 760px) {
+	.mainTitle h3 {
+		font-size: 32px;
+		text-align: center;
+		margin: 50px 0 15px 0;
+	}
+
+	.subTitle {
+		font-size: 24px;
+		margin: 10px;
+	}
+
+	.flexButtons {
+		flex-direction: column-reverse;
+	}
+
+	.btn {
+		margin: 15px;
+	}
+}

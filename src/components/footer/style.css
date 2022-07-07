@@ -16,6 +16,7 @@
 
 .socialLinks .links {
 	margin: 25px 50px;
+	cursor: pointer;
 }
 
 .crgt {

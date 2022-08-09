@@ -135,7 +135,7 @@ img {
 	grid-row: 3 / 6;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 	section {
 		display: flex;
 		flex-direction: column;
@@ -147,7 +147,7 @@ img {
 		background-image: linear-gradient(45deg, #080d10 0%, #e21506 100%);
 	}
 	.containerTitle {
-		font-size: 32px;
+		font-size: 26px;
 	}
 
 	.Box-1 .title {
@@ -212,11 +212,5 @@ img {
 	.containerNews .Box-5 {
 		grid-column: 1 / 13;
 		grid-row: 9 / 13;
-	}
-}
-
-@media (max-width: 760px) {
-	.containerTitle {
-		font-size: 24px;
 	}
 }
